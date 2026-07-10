@@ -3,3 +3,39 @@
     font-family: arial;
     border: border-box;
 }
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.nav_logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("https://imgs.search.brave.com/L1JBvAqKVfZVhU_Pa98LzucLEMcFKvUlVS2b1oavcpM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9sb2dv/cy13b3JsZC5uZXQv/d3AtY29udGVudC91/cGxvYWRzLzIwMjAv/MDQvQW1hem9uLVN5/bWJvbC03MDB4Mzk0/LmpwZw");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+/* box 2 */
+.add_first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add_sec{
+    margin-left: 3px;
+}
+.add_icon{
+    display: flex;
+    align-items: center;
+}
