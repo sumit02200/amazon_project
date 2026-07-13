@@ -9,6 +9,7 @@
     color: white;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
 .nav_logo{
     height: 50px;
@@ -38,4 +39,60 @@
 .add_icon{
     display: flex;
     align-items: center;
+}
+
+/* box 3 */
+.nav_search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 5px;
+}
+.nav_search:hover{
+    border: 2px solid orange;
+}
+.search_select{
+    background-color: #f3f3f3;
+    text-align: center;
+    width: 50px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+.search_input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search_icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgb(255, 140, 0);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #0f1111;
+}
+
+/* box 4 */
+.nav_first{
+    font-size: 0.7rem;
+}
+.nav_second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* box 5 */
+
+.nav_cart i{
+    font-size: 30px;
+}
+.nav_cart{
+    font-size: 0.85rem;
+    font-weight: 700;
 }
